@@ -1,0 +1,538 @@
+html
+{
+    padding: 0;
+    aspect-ratio: none;
+    margin: 0;
+}
+body
+{
+    background-color: #4bf798;
+    margin: 0;
+    padding: 0;
+    aspect-ratio: none;  
+    
+}
+
+.Leafheader
+{
+    text-align: center;
+    overflow: auto;
+    margin: 0;
+    background-color: black;
+    padding: 0;
+}
+
+
+.Back
+{
+    font-size: 14px;
+    text-align: start;
+    float:left;
+    margin: 0;
+    margin-top: 13px;
+    margin-left: 5px;
+    padding: 0;
+    font-weight: lighter;
+    color: white;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+    display: inline;
+}
+
+.Arrow
+{
+    height: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    transform: rotate(270deg);
+    vertical-align: middle;
+    padding-bottom: 5px;
+    float:left;
+}
+
+.Leaftext
+{
+    margin: 0;
+    font-weight: lighter;
+    color: white;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 3px;
+    display: inline;
+}
+
+.Leaficon
+{   
+    height: 40px;
+    vertical-align: middle;
+    padding-bottom: 5px;
+    
+}
+
+.Logintext
+{
+    text-align: center;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-weight: lighter;  
+    padding-top: 50px;
+}
+
+.Login
+{
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+}
+
+.Login > .username
+{
+    border-radius: 10px;
+    border-color: transparent;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    outline: none !important;
+    width: 500px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.Login > .password
+{
+    border-radius: 10px;
+    border-color: transparent;
+    font-family: 'Righteous', cursive;
+    outline: none !important;
+    width: 500px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Login > .submit
+{
+    background-color: #53D769;
+    border-color: transparent;
+    font-family: 'Righteous', cursive;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.signup
+{
+    padding-right: 5px;
+}
+
+.signup > .middledot
+{
+    display: inline;
+    font-size: 40px;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.signup > .signupbtn
+{
+    border: none;
+    background-color: #53D769;
+    border-radius: 5px;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
+.signup > .forgetpass
+{
+    border: none;
+    background-color: #53D769;
+    border-radius: 5px;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+main 
+{
+    
+    padding-top: 40px;    
+}
+
+.Register
+{
+    border-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    text-align: center;
+    transform: translateY(10%);
+   
+}
+
+.Register > .Registertext
+{
+    display: inline;
+    font-family: 'Righteous', cursive;
+}
+
+.Register > .Registerusername
+{
+    border-radius: 10px;
+    outline: none !important;
+    border-color: transparent;
+    font-family: 'Righteous', cursive;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.Register > .Registeremail
+{
+    border-radius: 10px;
+    outline: none !important;
+    border-color: transparent;
+    font-family: 'Righteous', cursive;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.Register > .Registerpassword
+{
+    border-radius: 10px;
+    border-color: transparent;
+    font-family: 'Righteous', cursive;
+    outline: none !important;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;  
+}
+
+.Register > .Registerconfirmpassword
+{
+    border-radius: 10px;
+    border-color: transparent;
+    font-family: 'Righteous', cursive;
+    outline: none !important;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;  
+    
+}
+
+.Register > .Registerbday
+{
+    border: none;
+    outline: none !important;
+    color: black;
+    opacity: 60%;
+    width: 300px;
+    height: 40px;
+    background-color: inherit;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.Register > .Registersubmit
+{
+    background-color: #53D769;
+    border-color: transparent;
+    font-family: 'Righteous', cursive;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    height: 40px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.Register > hr
+{
+    width: 75%;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #C4C4C4;
+    height: 2px;
+}
+
+.Register > .Registermisc
+{
+    font-family: 'Righteous', cursive;
+}
+
+.Register > .Registerlogin
+{
+    border: none;
+    background-color: inherit;
+    font-family: 'Righteous', cursive;
+    color: #2ECBED;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Register > .Registerbday:focus
+{
+    opacity: 100%;
+}
+
+.Forgotpass
+{
+    border-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    text-align: center;
+    transform: translateY(10%);
+   
+}
+
+.Forgotpass > .Forgottext
+{
+    display: inline;
+    font-family: 'Righteous', cursive;
+}
+
+.Forgotpass > .Forgotemail
+{
+    border-radius: 10px;
+    outline: none !important;
+    border-color: transparent;
+    font-family: 'Righteous', cursive;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.Forgotpass > .Forgotsubmit
+{
+    background-color: #53D769;
+    border-color: transparent;
+    font-family: 'Righteous', cursive;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    height: 40px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.Forgotpass > .Forgotlogin
+{
+    border: none;
+    background-color: inherit;
+    font-family: 'Righteous', cursive;
+    color: #2ECBED;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Forgotpass > hr
+{
+    width: 75%;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #C4C4C4;
+    height: 2px;
+}
+
+.container
+{
+    position: absolute;
+}
+
+.lottie
+{
+    position: relative;
+    left: 0px;
+    top: 0px; 
+    bottom: 0px; 
+    right: 0;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+  }
+
+  .Leaf
+{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    aspect-ratio: none;  
+    
+}
+
+.vl 
+{
+    border-left: 4px solid #53D769;
+    border-right: 4px solid #53D769;
+    right: 70px;
+    left: 70px;
+    height: 100vh;
+    position: absolute;
+}
+
+
+
+.vl2 
+{ 
+    
+    border-top: 4px solid #53D769;
+    top: 0%;
+    position: absolute;
+    height: 100px;
+    width: 100%
+    
+}
+
+
+.Tabcontainer
+{
+    cursor: pointer;
+}
+.Tablist 
+{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    color: white;
+   
+}
+
+.Tablist > .Tabcontainer > h1
+{
+   font-size: 14px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 1px;
+    margin-bottom: 18px;
+    text-align: center;
+    
+  
+}
+.Homeleaf
+{
+    margin-right: 20px;
+    color: white;
+    position: fixed; 
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    padding-bottom: 15px;
+}
+
+.Tab
+{
+    margin-left: 17px;
+    height: 35px;
+    position: relative;
+}
+
+
+
+
+.post > hr
+{
+    margin-top: 50px;
+    border-color: transparent;
+    background-color:#53D769 ;
+    height: 2px;
+   
+}
+
+
+
+.user
+{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: white ;
+    height: 35px;
+    
+    cursor: pointer;
+   
+}
+
+.navbar
+{  
+  margin: 0;
+  padding: 0;
+}
+
+.nav
+{
+    cursor: pointer;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+.nav > a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.test
+{
+   margin-top: 10px;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+#notes
+{
+    color: white
+}
+
+#note
+{
+    width: 80%;
+    height: 70px;
+    padding: 0;
+    font-size: 18px;
+    margin: 0;
+    border-radius: 10px;
+    background-color: darkslategray;
+    border-color: #53D769;
+    color: white;
+}
+
+.send
+{
+    background-color: #53D769;
+    border-color: transparent;
+    font-family: 'Righteous', cursive;
+    border-radius: 5px;
+    width: 55px;
+    text-align: center;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}

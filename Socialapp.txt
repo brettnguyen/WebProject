@@ -1,0 +1,8 @@
+A social media called leaf that has people sending comments to each other or the masses that gets reviewed/judged. 
+Each user gets a board that allows people to know how they are feeling today.
+Send tweet like messages or comments to people directly they then upvote or downvote 
+No replys just direct one way type messages. Almost like a twitter board directed at one user.
+Upvote and downvote give two different points to the person who sent the message. 
+Upvote goodvibe points downvote badvibe points. 
+Each message last 24 hours or until the other user finializes there vote on the message.
+Send message to a live board to allow for upvotes or downvotes from a mass community.

@@ -1,0 +1,22 @@
+{
+  "name": "leaf",
+  "version": "1.0.0",
+  "description": "twitter clone",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "leaf",
+    "twitter"
+  ],
+  "author": "Brett Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

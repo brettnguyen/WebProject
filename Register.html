@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Styles/stylesheet.css" rel="styleSheet">
+  <link href="Images/leaf.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+  <title>leaf</title>
+</head>
+
+
+<body>
+<header class="Leafheader" >
+    <div>
+      <div class="MoveBack" onclick="location.href='Login.html';" style="cursor: pointer;">
+        <img class="Arrow" src="Images/Arrow.svg"/>  
+        <h1 class="Back"> Back  </h1>
+        </div>
+        <h1 class="Leaftext"> Leaf  </h1>
+        <img class="Leaficon" src="Images/leaf.svg"/>       
+    </div>
+</header>
+<div class="container">
+  <lottie-player class="lottie" src="https://assets7.lottiefiles.com/packages/lf20_sutijjlc.json"  background="transparent"  speed=".4"   loop autoplay></lottie-player>
+</div>
+<main>
+    
+    <form action="" method="get" class="Register">
+        <div class="Register">
+        <h1 class="Registertext"> Sign Up </h1>
+        </div>
+
+        <div class="Register">
+          <input class="Registerusername" type="text" placeholder="Username" name="Username" id="newUser" required>
+          <hr>
+        </div>
+        
+        <div class="Register">
+            <input class="Registeremail" type="email" placeholder="Email" name="Email" id="Email" required>
+            <hr>
+          </div>
+        <div class="Register">
+          <input class="Registerpassword" type="password" placeholder="Password" name="Password" id="newPassword" required>
+          <hr>
+        </div>
+        <div class="Register">
+            <input class="Registerconfirmpassword" type="password" placeholder="Confirm Password" name="ConfirmPassword" id="newPassword" required>
+            <hr>
+          </div>
+          <div class="Register">
+            <input class="Registerbday" type="date" id="birthday" name="birthday">
+            <hr>
+          </div>
+        <div class="Register">
+          <button class="Registersubmit"  type="button" onclick="registerUser()" > Submit </button>
+        </div>
+        <div class="Register">
+            <label class="Registermisc"> Already have an account? </label>
+            <button type="button" onclick="location.href='Login.html';" value="Go to Register" class="Registerlogin" >log in</button>
+          </div>
+      </form>
+  
+</main>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>

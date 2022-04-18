@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="69.18541mm"
+   height="65.111839mm"
+   viewBox="0 0 69.18541 65.111839"
+   version="1.1"
+   id="svg1456"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="LeafPost.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1458"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.71446408"
+     inkscape:cx="346.4135"
+     inkscape:cy="-121.76959"
+     inkscape:window-width="1482"
+     inkscape:window-height="1020"
+     inkscape:window-x="420"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1770" />
+  <defs
+     id="defs1453" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-73.912282,-69.098065)">
+    <g
+       id="g1770">
+      <rect
+         style="fill:none;stroke:#53d769;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         id="rect846"
+         width="58.179001"
+         height="54.105442"
+         x="79.415482"
+         y="74.601265"
+         ry="10.160494" />
+      <rect
+         style="fill:#53d769;stroke:#53d769;stroke-width:6.05674;stop-color:#000000"
+         id="rect1561"
+         width="3.8115575"
+         height="53.064678"
+         x="106.75806"
+         y="76.23262"
+         ry="1.8388748" />
+      <rect
+         style="fill:#53d769;stroke:#53d769;stroke-width:6.05674;stop-color:#000000"
+         id="rect1561-4"
+         width="3.8115575"
+         height="53.064678"
+         x="98.822403"
+         y="-135.77798"
+         ry="1.8388748"
+         transform="rotate(90)" />
+    </g>
+  </g>
+</svg>
