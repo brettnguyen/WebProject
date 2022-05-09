@@ -1,3 +1,16 @@
+const nav = document.querySelector('nav');
+if(getCurrentUser()) {
+  nav.innerHTML = `
+     <ul class="navbar">
+       <li class="nav"><a id="logout" href="Login.html">Logout</a></li>
+       <li class="nav"><a href="Home.html">Home</a></li>
+       <li class="nav"><a href="Profile.html">Profile</a></li>
+      
+     </ul>
+  `;
+} else {
+
+}
 export async function fetchData(route = '', data = {}, methodType) {
   const response = await fetch(`${route}`, {
     method: methodType, // *GET, POST, PUT, DELETE, etc.
@@ -18,22 +31,28 @@ export async function fetchData(route = '', data = {}, methodType) {
     throw await response.json();
   }
 }
-  function registerUser()
-{
-  var registerUser = document.getElementById("newUser").value
-  var registerPassword = document.getElementById("newPassword").value
-  var newUser = [{
-      userName: registerUser,
-      userPassword: registerPassword
-  }];
 
-  console.log(newUser)
-  //window.location.href = "Login.html"
+
+export function setCurrentUser(user) {
+  localStorage.setItem('user', JSON.stringify(user));
+}
+
+export function removeCurrentUser() {
+  localStorage.removeItem('user')
+}
+
+export function getCurrentUser() {
+  return JSON.parse(localStorage.getItem('user'));
 }
 
 
+export const logoutBtn = document.getElementById("logout");
+if(logoutBtn) logoutBtn.addEventListener('click', logout)
 
-
+export function logout() {
+  removeCurrentUser();
+  window.location.href = "login.html";
+}
 
 
 

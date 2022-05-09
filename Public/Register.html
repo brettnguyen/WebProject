@@ -33,25 +33,25 @@
 </div>
 <main>
     
-    <form action="" method="get" class="Register">
+    <form action="" method="get" id="reg-form" class="Register">
         <div class="Register">
         <h1 class="Registertext"> Sign Up </h1>
         </div>
 
         <div class="Register">
-          <input class="Registerusername" type="text" placeholder="Username" name="Username" id="newUser" required>
+          <input class="Registerusername" type="username" placeholder="Username" name="username" id="username" required>
           <hr>
         </div>
         
      
         <div class="Register">
-          <input class="Registerpassword" type="password" placeholder="Password" name="Password" id="newPassword" required>
+          <input class="Registerpassword" type="password" placeholder="Password" name="password" id="password" required>
           <hr>
         </div>
        
         
         <div class="Register">
-          <button class="Registersubmit"  type="button" onclick="registerUser()" > Submit </button>
+          <input class="Registersubmit"  type="submit" value="register"> Submit </button>
         </div>
         <div class="Register">
             <label class="Registermisc"> Already have an account? </label>
@@ -62,6 +62,7 @@
 </main>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <script type="module"  src="scripts/main.js"></script>
+<script type="module"  src="scripts/user-script.js"></script>
 </body>
 
 </html>
