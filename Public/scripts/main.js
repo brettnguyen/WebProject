@@ -37,12 +37,21 @@ export function setCurrentUser(user) {
   localStorage.setItem('user', JSON.stringify(user));
 }
 
+
 export function removeCurrentUser() {
   localStorage.removeItem('user')
 }
 
 export function getCurrentUser() {
   return JSON.parse(localStorage.getItem('user'));
+}
+
+export function setCurrentNote(notes) {
+  localStorage.setItem('notes', JSON.stringify(notes));
+}
+
+export function getCurrentNote() {
+  return JSON.parse(localStorage.getItem('notes'));
 }
 
 

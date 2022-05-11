@@ -477,6 +477,7 @@ main
 #notes
 {
     color: white
+    
 }
 
 #note
@@ -484,8 +485,11 @@ main
     width: 80%;
     height: 70px;
     padding: 0;
+    padding-left: 10px;
     font-size: 18px;
+    text-align: center;
     margin: 0;
+    margin-bottom: 15px;
     border-radius: 10px;
     background-color: darkslategray;
     border-color: #53D769;
@@ -505,3 +509,12 @@ main
     color: white;
     cursor: pointer;
 }
+
+.notes
+{
+    list-style: none;
+}
+
+
+
+

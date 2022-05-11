@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="stylesheet.css" rel="styleSheet">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -24,22 +25,25 @@
         <div class="post">
          
          <hr>
+         
          <div class="Posting">
             
-         <form id="noteForm">
-            <img class="user" src="Images/LeafPro.svg"/> 
-            <input  type="text" id="note" required>
-            <input type="submit" class="send" value="post">
-          </form>
-         </div>
-          <ul id="notes">
+         <form  id="test" >
+            <img  class="user" src="Images/LeafPro.svg"/> 
+            <input  type="text" placeholder="Write here!" class="note"  id="note" >
+           <input type="submit" value="sub">
            
+          </form>
          
-            <!-- append notes here -->
+         </div>
+          <ul class="notes" id="notes">
+       <section id="profile"></section>
+         
+         
           </ul>
          
         </div>
-          
+     
         </body>
 </div>
 <div class="vl2">  </div>
@@ -61,8 +65,9 @@
     </div> 
    <img class="Homeleaf" src="Images/leaf.svg"/>  
    </div>
-
-   
+   <script type="module" src="scripts/main.js"></script>
+   <script type="module" src="scripts/notes-script.js"></script>
+   <script type="module" src="scripts/user-script.js"></script>
 </div>
-<script type="module"  src="scripts/main.js"></script>
+
 </html>

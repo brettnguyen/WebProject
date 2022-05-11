@@ -19,7 +19,7 @@ async function getUser(user) {
   let sql;
   if(user.userId) {
     sql = `SELECT * FROM users
-      WHERE user_id = ${user.userId}
+      WHERE user_id = "${user.userId}"
     `;
   } else {
     sql = `SELECT * FROM users
@@ -33,7 +33,7 @@ async function getUser(user) {
 async function login(username, password) {
   const user = await userExists(username);
   if(!user[0]) throw Error('User not found')
-  if(user[0].user_password !== password) throw Error("Password is incorrect");
+  if(user[0].user_password != password) throw Error("Password is correct");
 
   return user[0];
 }
@@ -65,5 +65,9 @@ async function userExists(username) {
   `;
   return await con.query(sql);
 }
+
+
+
+
 
 module.exports = { getUsers, login, register, getUser, deleteUser, createTable };

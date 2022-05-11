@@ -8,7 +8,7 @@ if(!user) window.location.href = "login.html";
 
 let profile = document.getElementById("profile");
 profile.innerHTML = `
-  <h2>Welcome back </h2>
+  <h2>Welcome back  ${user.username}! </h2>
   <div>
     <p class="error"></p>
     <button class="btn" id="delete">Delete Account</button>

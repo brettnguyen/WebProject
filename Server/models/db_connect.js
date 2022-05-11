@@ -18,7 +18,6 @@ const query = (sql, binding) => {
     });
   };
   
-  const createQuery = "CREATE DATABASE IF NOT EXISTS leaf_db;";
-  con.query(createQuery);
+ 
   
   module.exports = { con, query }
