@@ -67,36 +67,21 @@ function send(e) {
     return response.json();
   }).then(function(j) {
     
-   
- var t =  JSON.stringify(j),  ul = document.createElement('ul');
+
+ var t =  JSON.stringify(j.note),  ul = document.createElement('ul');
  document.getElementById('results').appendChild(ul);
 
  j.forEach(item => {
+   if(item.username == uname)
+   {
     let li = document.createElement('li');
     ul.appendChild(li);
 
-   li.innerHTML += item;
+   li.innerHTML += item.note;
+   }
 });
   })
 }
- //const JSON = [getAllNotes(getCurrentUser().username)];
-
-// await fetch('/notes/getAllNotes', {username: getCurrentUser().username}, "GET").then(function(response) {
-   //  return response.json();
- //}).then(function(k) 
- 
-
-//getAllNotes(getCurrentUser().username)(k);
-//console.log(getAllNotes(getCurrentUser().username)(k));
-//})
-//const JSON = [getAllNotes(getCurrentUser().username)];
-//const TPL_Results = item => `<div class="Results-item">
-//<h3 class="Results-itemName">${item.getCurrentNote.JSON}</h3>
-
-//</div>`;
-
-//document.querySelector("#results")
-//.innerHTML = JSON.map(item => TPL_Results(item)).join('');
 
 
 
