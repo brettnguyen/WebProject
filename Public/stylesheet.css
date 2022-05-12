@@ -359,7 +359,7 @@ main
     border-right: 4px solid #53D769;
     right: 70px;
     left: 70px;
-    height: 100vh;
+    height: 100%vh;
     position: absolute;
 }
 
@@ -516,5 +516,8 @@ main
 }
 
 
-
+.space
+{
+    margin-left: 40px;
+}
 

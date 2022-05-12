@@ -4,13 +4,6 @@ import
 { fetchData, setCurrentNote, getCurrentUser, getAllNotes, getCurrentNote } 
 from './main.js'
 
-let user = getCurrentUser();
-
-let profile = document.getElementById("profile");
-profile.innerHTML = `
-  <h2>Welcome back  ${user.username}! </h2>
-
-`;
 
 
 const noteform = document.getElementById("test");
@@ -33,12 +26,12 @@ function send(e) {
        
        let li = document.createElement('li');
        li.style.backgroundColor = "darkslategray"
-       li.style.width = "83%"
+       li.style.width = "88%"
        li.style.height = "60px"
        li.style.paddingTop = "20px"
        li.style.paddingLeft = "10px"
        li.style.marginBottom = "28px"
-       li.style.marginLeft = "50px"
+       li.style.marginLeft = "12px"
        li.style.fontSize = "18px"
        li.style.borderRadius = "10px"
        li.style.textAlign = "center"
@@ -67,19 +60,36 @@ function send(e) {
     return response.json();
   }).then(function(j) {
     
-
+j.reverse();
  var t =  JSON.stringify(j.note),  ul = document.createElement('ul');
+ ul.style.listStyle = "none";
  document.getElementById('results').appendChild(ul);
 
  j.forEach(item => {
    if(item.username == uname)
    {
     let li = document.createElement('li');
+    li.style.backgroundColor = "darkslategray"
+       li.style.width = "88%"
+       li.style.height = "60px"
+       li.style.paddingTop = "20px"
+       li.style.paddingLeft = "10px"
+       li.style.marginBottom = "28px"
+       li.style.marginLeft = "12px"
+       li.style.fontSize = "18px"
+       li.style.borderRadius = "10px"
+       li.style.textAlign = "center"
+       li.style.color = "white"
+      // li.value = item.note;
+       li.className = 'note';
+       //li.appendChild(document.createTextNode(item.note));
     ul.appendChild(li);
 
    li.innerHTML += item.note;
    }
+   
 });
+
   })
 }
 
