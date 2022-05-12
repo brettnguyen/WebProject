@@ -16,6 +16,14 @@ let getNotes = async () => {
   return await con.query(sql);
 };
 
+async function getAllNotes() {
+  let sql;
+    sql = `SELECT note, username FROM notes  `;
+    
+
+  return await con.query(sql);
+}
+
 async function getNote(noteinfo) {
   let sql;
   if(noteinfo.noteId) {
@@ -67,4 +75,4 @@ async function createNote(noteinfo) {
    
   }
 
-module.exports = { getNotes, getNote, createNotes, createNote, noteExists, editNote, deleteNote};
+module.exports = { getNotes, getAllNotes, getNote, createNotes, createNote, noteExists, editNote, deleteNote};

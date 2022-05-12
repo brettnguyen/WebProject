@@ -13,7 +13,7 @@ function login(e) {
   
     const name = document.getElementById("username").value;
     const pass = document.getElementById("password").value;
-    fetchData('/user/login', {username: name, password: pass}, "POST")
+    fetchData('/users/login', {username: name, password: pass}, "POST")
     .then((data) => { //cathy123, 12345
       data = {username: name, password: pass}
         setCurrentUser(data);
@@ -38,7 +38,7 @@ function register(e) {
   const name = document.getElementById("username").value;
   const pass = document.getElementById("password").value;
 
-  fetchData('/user/register', {username: name, password: pass}, "POST")
+  fetchData('/users/register', {username: name, password: pass}, "POST")
   .then((data) => {
     if(!data.message) {
       setCurrentUser(data);

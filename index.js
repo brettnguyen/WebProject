@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-const userRoutes = require("./Server/routes/user");
+const userRoutes = require("./Server/routes/users");
 const noteRoutes = require("./Server/routes/notes");
 
 app.use(express.json()); //To parse JSON bodies (Applicable for Express 4.16+)
@@ -20,7 +20,7 @@ app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS");  
   next();
 });
-  app.use("/user", userRoutes);
+  app.use("/users", userRoutes);
   app.use("/notes", noteRoutes);
 const PORT = process.env.PORT || 3000;
 

@@ -18,6 +18,18 @@ const query = (sql, binding) => {
     });
   };
   
- 
+  const createQuery = "CREATE DATABASE IF NOT EXISTS leaf_db;";
+  con.query(createQuery);
+
   
+
+
+
+
+
+con.connect(function(err) {
+  if (err) throw err;
+  console.log('Database is connected successfully !');
+});
+
   module.exports = { con, query }

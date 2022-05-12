@@ -5,12 +5,22 @@ const router = express.Router();
 router
 .get('/', async (req, res) => {
   try {
-    const noteCon = NoteCon.getNotes();
+    const noteCon = await NoteCon.getNotes();
     res.send(noteCon);
   } catch(err) {
     res.status(401).send({message: err.message});
   }
 })
+
+.get('/getAllNotes', async (req, res) => {
+  try {
+    const noteCon = await NoteCon.getAllNotes();
+    res.send(noteCon);
+  } catch(err) {
+    res.status(401).send({message: err.message});
+  }
+})
+
 
 .post('/createNote', async (req, res) => {
     try {

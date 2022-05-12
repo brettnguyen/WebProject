@@ -33,17 +33,18 @@ export async function fetchData(route = '', data = {}, methodType) {
 }
 
 
+
 export function setCurrentUser(user) {
-  localStorage.setItem('user', JSON.stringify(user));
+  localStorage.setItem('users', JSON.stringify(user));
 }
 
 
 export function removeCurrentUser() {
-  localStorage.removeItem('user')
+  localStorage.removeItem('users')
 }
 
 export function getCurrentUser() {
-  return JSON.parse(localStorage.getItem('user'));
+  return JSON.parse(localStorage.getItem('users'));
 }
 
 export function setCurrentNote(notes) {
@@ -52,6 +53,11 @@ export function setCurrentNote(notes) {
 
 export function getCurrentNote() {
   return JSON.parse(localStorage.getItem('notes'));
+}
+
+
+export function getAllNotes(username) {
+  return true;
 }
 
 
