@@ -68,6 +68,8 @@ j.reverse();
  j.forEach(item => {
    if(item.username == uname)
    {
+    let x = document.createElement('button');
+    ul.appendChild(x);
     let li = document.createElement('li');
     li.style.backgroundColor = "darkslategray"
        li.style.width = "88%"
