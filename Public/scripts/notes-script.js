@@ -1,6 +1,7 @@
 
+
 import 
-{ fetchData, setCurrentNote, getCurrentUser } 
+{ fetchData, setCurrentNote, getCurrentUser, getAllNotes, getCurrentNote } 
 from './main.js'
 
 let user = getCurrentUser();
@@ -47,7 +48,7 @@ function send(e) {
        li.appendChild(document.createTextNode(demo));
        notes.appendChild(li);
         document.getElementById("note").value = "";
-      
+     
   })
     .catch((error) => {
      const errText = error.message;
@@ -55,4 +56,49 @@ function send(e) {
       
     });
   }
+
  
+
+
+ if(getCurrentUser().username){
+  const uname = getCurrentUser().username;
+ await fetch('http://localhost:3000/notes/getAllNotes',{username: uname}).then(function(response) { 
+    // Convert to JSON
+    return response.json();
+  }).then(function(j) {
+    
+   
+ var t =  JSON.stringify(j),  ul = document.createElement('ul');
+ document.getElementById('results').appendChild(ul);
+
+ j.forEach(item => {
+    let li = document.createElement('li');
+    ul.appendChild(li);
+
+   li.innerHTML += item;
+});
+  })
+}
+ //const JSON = [getAllNotes(getCurrentUser().username)];
+
+// await fetch('/notes/getAllNotes', {username: getCurrentUser().username}, "GET").then(function(response) {
+   //  return response.json();
+ //}).then(function(k) 
+ 
+
+//getAllNotes(getCurrentUser().username)(k);
+//console.log(getAllNotes(getCurrentUser().username)(k));
+//})
+//const JSON = [getAllNotes(getCurrentUser().username)];
+//const TPL_Results = item => `<div class="Results-item">
+//<h3 class="Results-itemName">${item.getCurrentNote.JSON}</h3>
+
+//</div>`;
+
+//document.querySelector("#results")
+//.innerHTML = JSON.map(item => TPL_Results(item)).join('');
+
+
+
+
+
