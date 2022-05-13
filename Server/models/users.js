@@ -19,7 +19,7 @@ async function getUser(user) {
   let sql;
   if(user.userId) {
     sql = `SELECT * FROM users
-      WHERE user_id = "${user.userId}"
+      WHERE user_id = ${user.userId}
     `;
   } else {
     sql = `SELECT * FROM users
@@ -51,9 +51,9 @@ async function register(user) {
   return newUser[0];
 }
 
-async function deleteUser(userId) {
+async function deleteUser(username) {
   const sql = `DELETE FROM users 
-    WHERE user_id = ${userId}
+    WHERE username = "${username}"
   `;
   await con.query(sql);
  

@@ -17,11 +17,15 @@ profile.innerHTML = `
 
 document.getElementById("delete").addEventListener('click', deleteAccount);
 
-function deleteAccount() {
+function deleteAccount(e) {
+  e.preventDefault();
+  const uname = getCurrentUser().username;
   if(confirm('Are you sure you want to delete your account???')) {
-    fetchData('/users/delete', {userId: user.user_id}, "DELETE")
+    fetchData('/users/deleteUser', {username: uname}, "DELETE")
     .then((data) => {
+      data = {username: uname}
       if(!data.message) {
+      
         console.log(data.success)
         logout();
         window.location.href = "Register.html"
@@ -34,3 +38,4 @@ function deleteAccount() {
     })
   }
 }
+

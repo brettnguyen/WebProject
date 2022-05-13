@@ -46,7 +46,7 @@ router
 .delete('/deleteNote', async (req, res) => {
   try {
     await NoteCon.deleteNote(req.body.noteId);
-    res.send({success: "We'll miss you...:("});
+    res.send({success: "bye note"});
   } catch(error) {
     res.status(401).send({message: error.message});
   }

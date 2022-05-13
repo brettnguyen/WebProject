@@ -5,7 +5,7 @@ const router = express.Router();
 router
 .get('/', async (req, res) => {
   try {
-    const users = User.getUsers();
+    const users = await User.getUsers();
     res.send(users);
   } catch(err) {
     res.status(401).send({message: err.message});
@@ -14,7 +14,7 @@ router
 
 .post('/login', async (req, res) => {
     try {
-      const user = User.login(req.body.username, req.body.password);
+      const user = await User.login(req.body.username, req.body.password);
       res.send({...user, password: undefined});
     } catch (error) {
       res.status(401).send({message: error.message});
@@ -31,9 +31,9 @@ router
   }
 })
 
-.delete('/delete', async (req, res) => {
+.delete('/deleteUser', async (req, res) => {
   try {
-    await User.deleteUser(req.body.userId);
+    await User.deleteUser(req.body.username);
     res.send({success: "We'll miss you...:("});
   } catch(error) {
     res.status(401).send({message: error.message});

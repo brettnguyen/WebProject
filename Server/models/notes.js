@@ -18,7 +18,7 @@ let getNotes = async () => {
 
 async function getAllNotes() {
   let sql;
-    sql = `SELECT note, username FROM notes  `;
+    sql = `SELECT note, username, notes_id FROM notes  `;
     
 
   return await con.query(sql);
@@ -69,7 +69,7 @@ async function createNote(noteinfo) {
 
   async function deleteNote(noteId) {
     const sql = `DELETE FROM notes 
-      WHERE note_id = ${noteId}
+      WHERE notes_id = ${noteId}
     `;
     await con.query(sql);
    
