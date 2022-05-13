@@ -28,7 +28,7 @@ async function getNote(noteinfo) {
   let sql;
   if(noteinfo.noteId) {
     sql = `SELECT * FROM notes
-      WHERE note_id = ${noteinfo.noteId}
+      WHERE notes_id = ${noteinfo.noteId}
     `;
   } else {
     sql = `SELECT * FROM notes
@@ -60,10 +60,10 @@ async function createNote(noteinfo) {
   async function editNote(noteinfo) {
     const sql = `UPDATE notes SET
       note = "${noteinfo.note}"
-      WHERE user_id = ${noteinfo.username}
+      WHERE notes_id = ${noteinfo.noteId}
     `;
     const update = await con.query(sql);
-    const newUser = await getUser(user);
+    const newUser = await getNote(noteinfo);
     return newUser[0];
   }
 
