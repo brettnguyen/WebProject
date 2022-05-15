@@ -1,5 +1,5 @@
 ﻿
-#**Notes app:**
+#**Notes app:**#
 
 A Notes app. That in the future will allow you to visit other users pages to view there notes too. As well as add upvote and downvote options to notes on either your page or other users pages. The function to add notes to other users pages is something to be implemented in the future as well.
 
