@@ -31,7 +31,7 @@ function send(e) {
   }
 
  
-  console.log(getCurrentNote())
+  ///console.log(getCurrentNote())
 
  if(getCurrentUser().username){
   const uname = getCurrentUser().username;
@@ -69,8 +69,8 @@ j.reverse();
        li.value = item.note
        ul.appendChild(li)
     let x = document.createElement('input');
-    x.style.visibility = "hidden"
-       x.style.backgroundColor = "darkslategray"
+      x.style.visibility = "hidden"
+      x.style.backgroundColor = "darkslategray"
       x.style.width = "79.5%"
       x.style.height = "55px"
       x.style.position = "absolute"
@@ -83,6 +83,7 @@ j.reverse();
       x.style.borderRadius = "10px"
       x.style.textAlign = "center"
       x.style.color = "white"
+      x.placeholder = "Write edit here"
       x.className = "show"
       x.id = "xnote" + item.notes_id ;
        // x.value = item.note

@@ -69,5 +69,21 @@ export function logout() {
   window.location.href = "login.html";
 }
 
+export const homeBtn = document.getElementById("homeico");
+if(homeBtn) homeBtn.addEventListener('click', Home)
+
+export function Home() {
+
+  window.location.href = "Home.html";
+}
+
+
+export const proBtn = document.getElementById("profileico");
+if(proBtn) proBtn.addEventListener('click', Profile)
+
+export function Profile() {
+
+  window.location.href = "Profile.html";
+}
 
 
