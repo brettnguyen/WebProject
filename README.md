@@ -7,7 +7,7 @@ A Notes app. That in the future will allow you to visit other users pages to vie
 
 </pre>
 
-<h2>**FUNCTIONS:**</h2>
+**<h2>FUNCTIONS:</h2>**
 
 -A user can create an account under the register page after creating a username and password.
 
@@ -30,7 +30,7 @@ where it displays your username the "delete account" button. To delete an accoun
 
 </pre>
 
-**BUGS:**
+**<h2>BUGS:</h2>**
 
 -If you are logged in and you revisit the localhost:3000 that it is linked to and you havent cleared your browsers cache you will recieve an error/issues. Make sure to click the logout tab on top of the login screen ONLY if you see it on the login page or clear your browsers cache.
 
@@ -50,15 +50,15 @@ where it displays your username the "delete account" button. To delete an accoun
 
 </pre>
 
-**FRAME WORKS/PROGRAMMING LANGUAGES:**
+**<h2>FRAME WORKS/PROGRAMMING LANGUAGES:</h2>**
 
-**FRONT END:**
+**<h3>FRONT END:<h3>**
 
 -HTML and css were used to create the designs of each page
 
 -Javascript was used to create the functionality of each page, and create objects as well as used to retreive the information for each page
 
-**BACK END:**
+**<h3>BACK END:</h3>**
 
 -Node.js and Express.js were used to connect and obtain information from my database.
 
@@ -68,7 +68,7 @@ where it displays your username the "delete account" button. To delete an accoun
 
 </pre>
 
-**ERD:**
+**<h2>ERD:</h2>**
 
 ![ERD](https://user-images.githubusercontent.com/77566307/168484555-8f56814c-563e-413c-8966-2725021e5458.png)
 
@@ -76,9 +76,9 @@ where it displays your username the "delete account" button. To delete an accoun
 
 </pre>
 
-**HOW TO DOWNLOAD AND USE:**
+**<h2>HOW TO DOWNLOAD AND USE:</h2>**
 
-**NODE AND EXPRESS:**
+**<h3>NODE AND EXPRESS:</h3>**
 
 1. Run npm install and npm will install all the dependencies listed
 
@@ -90,9 +90,9 @@ where it displays your username the "delete account" button. To delete an accoun
 
 5. Then in the terminal run npm install nodemon --save-dev
 
-**mySQL:**
+**<h3>mySQL:</h3>**
 
-**Windows:**
+**<h4>Windows:</h4>**
 
 1. Use the MySQL Community installer for Windows: https:// dev.mysql.com/downloads/installer/
 
@@ -100,7 +100,7 @@ where it displays your username the "delete account" button. To delete an accoun
 
 3. In your windows search bar, search for the MySQL Command Line Client and open it. Enter your password.
 
-**Mac:**
+**<h4>Mac:</h4>**
 
 1. Go to the following link and download the version for your operating system: https://dev.mysql.com/downloads/mysql/
 
@@ -122,7 +122,7 @@ where it displays your username the "delete account" button. To delete an accoun
 
 </pre>
 
-**RUN PROJECT:**
+**<h2>RUN PROJECT:</h2>**
 
 1. Start your server, open up your terminal and enter the command npm run dev --Must have mySQL Data base look below to see how that work--.
 
@@ -132,45 +132,45 @@ where it displays your username the "delete account" button. To delete an accoun
 
 </pre>
 
-**WEBSITE IMAGES:**
+**<h2>WEBSITE IMAGES:</h2>**
 
-Login page:
+<h3>Login page:</h3>
 
 ![leaflogin](https://user-images.githubusercontent.com/77566307/168485196-990e41a9-2334-49f4-9e3f-c16482249863.png)
 
-Register Page:
+<h3>Register Page:</h3>
 
 ![leafreg](https://user-images.githubusercontent.com/77566307/168485197-5b19307f-420e-44c8-9590-f0e4a6d3d872.png)
 
-Home Page:
+ <h3>Home Page:</h3>
 
 ![leafhome](https://user-images.githubusercontent.com/77566307/168485204-68cb139c-b954-47bb-9ff0-ae63f69eb3d0.png)
 
-Enter Note on home page:
+<h3>Enter Note on home page:</h3>
 
 ![leafhometest](https://user-images.githubusercontent.com/77566307/168485214-cf50a675-25fd-472e-805d-037a7e2aac53.png)
 
-Note entered and result home page: (after clicking the post button after entering a note at the top)
+<h3>Note entered and result home page: (after clicking the post button after entering a note at the top)</h3>
 
 ![leafhomeresult](https://user-images.githubusercontent.com/77566307/168485218-04ce1af2-fbb9-49cc-af65-9f4a88e4a354.png)
 
-Note delete option home page: (after clicking the delete button)
+<h3>Note delete option home page: (after clicking the delete button)</h3>
 
 ![leafdelete](https://user-images.githubusercontent.com/77566307/168485224-f660f5e4-24e4-4a40-8275-7a7aa3e80568.png)
 
-Note deleted and result home page: (after clicking "ok" on prompt)
+<h3>Note deleted and result home page: (after clicking "ok" on prompt)</h3>
 
 ![leafhome](https://user-images.githubusercontent.com/77566307/168485232-a8eccb87-2cb8-4320-8062-997fe3415e8d.png)
 
-Note edit option home page: (after clicking the edit button and typing text)
+<h3>Note edit option home page: (after clicking the edit button and typing text)</h3>
 
 ![editres](https://user-images.githubusercontent.com/77566307/168485242-d70bdab1-1831-4362-85d9-02bdd6089720.png)
 
-Note edit entered result home page: (after clicking the edit button, typing text, then clicking the finish button)
+<h3>Note edit entered result home page: (after clicking the edit button, typing text, then clicking the finish button)</h3>
 
 ![editfinish](https://user-images.githubusercontent.com/77566307/168485244-0c7d06a0-3fe3-404d-a949-a2f6dd28120f.png)
 
-profile page:
+<h3>profile page:</h3>
 
 ![profile](https://user-images.githubusercontent.com/77566307/168485247-c39e4e13-c5f2-4cec-b0ff-119d9b992833.png)
 
