@@ -36,7 +36,9 @@ where it displays your username the "delete account" button. To delete an accoun
 
 -The profile and home tab icons on the home page aren't on the profile page.
 
+<pre>
 
+</pre>
 
 **FRAME WORKS/PROGRAMMING LANGUAGES:**
 
@@ -51,13 +53,17 @@ where it displays your username the "delete account" button. To delete an accoun
 
 -mySQL was used as my database.
 
+<pre>
 
+</pre>
 
 **ERD:**
 
 ![ERD](https://user-images.githubusercontent.com/77566307/168482528-46ecc7a9-4f23-4a7b-885e-3e3f79ccba54.png)
 
+<pre>
 
+</pre>
 
 **HOW TO DOWNLOAD AND USE:**
 
@@ -73,7 +79,9 @@ where it displays your username the "delete account" button. To delete an accoun
 
 -Then in the terminal run npm install nodemon --save-dev
 
+<pre>
 
+</pre>
 
 **mySQL:**
 
@@ -118,7 +126,8 @@ you initially installed. You will have to run this every time you want to use My
 -Start your server, open up your terminal and enter the
 command npm run dev --Must have mySQL Data base look below to see how that work--.
 
+<pre>
 
-
+</pre>
 
 **WEBSITE IMAGES:**
