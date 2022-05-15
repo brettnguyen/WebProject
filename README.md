@@ -121,7 +121,11 @@ you initially installed. You will have to run this every time you want to use My
 -If you run into an error, take your setup out of Strict Mode: SET
 @@global.sql_mode= '';
 
-**RUN:**
+<pre>
+
+</pre>
+
+**RUN PROJECT:**
 
 -Start your server, open up your terminal and enter the
 command npm run dev --Must have mySQL Data base look below to see how that work--.
