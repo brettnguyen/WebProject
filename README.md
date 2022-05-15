@@ -20,7 +20,7 @@ where it displays your username the "delete account" button. To delete an accoun
 
 -A user can cancel the ability to edit a note and keep there previous note by pushing cancel when it appears after you click the edit button.
 
-> Blockquote
+> >
 
 **BUGS:**
 
