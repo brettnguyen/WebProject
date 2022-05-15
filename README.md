@@ -154,19 +154,19 @@ Note entered and result home page:
 
 ![leafhomeresult](https://user-images.githubusercontent.com/77566307/168485218-04ce1af2-fbb9-49cc-af65-9f4a88e4a354.png)
 
-Note delete option home page:
+Note delete option home page: (after clicking the delete button)
 
 ![leafdelete](https://user-images.githubusercontent.com/77566307/168485224-f660f5e4-24e4-4a40-8275-7a7aa3e80568.png)
 
-Note deleted and result home page:
+Note deleted and result home page: (after clicking "ok" on prompt)
 
 ![leafhome](https://user-images.githubusercontent.com/77566307/168485232-a8eccb87-2cb8-4320-8062-997fe3415e8d.png)
 
-Note edit option home page:
+Note edit option home page: (after clicking the edit button and typing text)
 
 ![editres](https://user-images.githubusercontent.com/77566307/168485242-d70bdab1-1831-4362-85d9-02bdd6089720.png)
 
-Note edit entered result home page:
+Note edit entered result home page: (after clicking the edit button, typing text, then clicking the finish button)
 
 ![editfinish](https://user-images.githubusercontent.com/77566307/168485244-0c7d06a0-3fe3-404d-a949-a2f6dd28120f.png)
 
