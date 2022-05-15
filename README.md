@@ -150,7 +150,7 @@ Enter Note on home page:
 
 ![leafhometest](https://user-images.githubusercontent.com/77566307/168485214-cf50a675-25fd-472e-805d-037a7e2aac53.png)
 
-Note entered and result home page:
+Note entered and result home page: (after clicking the post button after entering a note at the top)
 
 ![leafhomeresult](https://user-images.githubusercontent.com/77566307/168485218-04ce1af2-fbb9-49cc-af65-9f4a88e4a354.png)
 
