@@ -33,6 +33,8 @@ where it displays your username the "delete account" button. To delete an accoun
 
 -The profile and home tab icons on the home page aren't on the profile page.
 
+
+
 **FRAME WORKS/PROGRAMMING LANGUAGES:**
 
 **FRONT END:**
@@ -46,8 +48,74 @@ where it displays your username the "delete account" button. To delete an accoun
 
 -mySQL was used as my database.
 
+
+
 **ERD:**
+
 ![ERD](https://user-images.githubusercontent.com/77566307/168482528-46ecc7a9-4f23-4a7b-885e-3e3f79ccba54.png)
 
 
 
+**HOW TO DOWNLOAD AND USE:**
+
+**NODE AND EXPRESS:**
+
+-Run npm install and npm will install all the dependencies listed
+
+-Download Node.js via their website: https://nodejs.dev/
+
+-In visual studio code open terminal and enter the command: npm init
+
+-Next, install express in the terminal using npm install express.
+
+-Then in the terminal run npm install nodemon --save-dev
+
+
+
+**mySQL:**
+
+**Windows:**
+
+-Use the MySQL Community installer for Windows: https://
+dev.mysql.com/downloads/installer/
+
+-Follow the directions and pick the default options. You
+will have to pick a password and username. Be sure to
+remember them.
+
+-In your windows search bar, search for the MySQL
+Command Line Client and open it. Enter your password. 
+
+**Mac:**
+
+-Go to the following link and download the version for your operating system:
+https://dev.mysql.com/downloads/mysql/
+
+-Follow the steps to download. You may already have an oracle account from
+when you downloaded Java.
+
+-Open your terminal and create a bash_profile if you don’t already have one:
+touch ~/.bash_profile;
+
+-Next, open your bash_profile using: open ~/.bash_profile
+
+-Add the following to it: export PATH=${PATH}:/usr/local/mysql/bin/
+
+-Close it then run: Mysql -u root -p and enter the password you received when
+you initially installed. You will have to run this every time you want to use MySQL.
+
+-Create a new password for the root user by running: ALTER USER
+'root'@'localhost' IDENTIFIED BY ‘yournewpassword'
+
+-If you run into an error, take your setup out of Strict Mode: SET
+@@global.sql_mode= '';
+
+**RUN:**
+
+-Start your server, open up your terminal and enter the
+command npm run dev --Must have mySQL Data base look below to see how that work--.
+
+
+
+
+**WEBSITE IMAGES:**
