@@ -1,5 +1,5 @@
 ﻿
-**Notes app:**
+#**Notes app:**
 
 A Notes app. That in the future will allow you to visit other users pages to view there notes too. As well as add upvote and downvote options to notes on either your page or other users pages. The function to add notes to other users pages is something to be implemented in the future as well.
 
@@ -7,7 +7,7 @@ A Notes app. That in the future will allow you to visit other users pages to vie
 
 </pre>
 
-**FUNCTIONS:**
+##**FUNCTIONS:**
 
 -A user can create an account under the register page after creating a username and password.
 
@@ -30,7 +30,7 @@ where it displays your username the "delete account" button. To delete an accoun
 
 </pre>
 
-**BUGS:**
+##**BUGS:**
 
 -If you are logged in and you revisit the localhost:3000 that it is linked to and you havent cleared your browsers cache you will recieve an error/issues. Make sure to click the logout tab on top of the login screen ONLY if you see it on the login page or clear your browsers cache.
 
