@@ -32,6 +32,8 @@ where it displays your username the "delete account" button. To delete an accoun
 
 **BUGS:**
 
+-If you are logged in and you revisit the localhost:3000 that it is linked to and you havent cleared your browsers cache you will recieve an error/issues. Make sure to click the logout tab on top of the login screen ONLY if you see it on the login page or clear your browsers cache.
+
 -The lottie animation for the login page doesn't always fit the screen.
 
 -On the home page the green lines going vertical don't reach the bottom of the page but they do go further down as the page increases in size with the amount of notes that populate the page.
