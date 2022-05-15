@@ -52,7 +52,7 @@ where it displays your username the "delete account" button. To delete an accoun
 
 **<h2>FRAME WORKS/PROGRAMMING LANGUAGES:</h2>**
 
-**<h3>FRONT END:<h3>**
+**<h3>FRONT END:</h3>**
 
 -HTML and css were used to create the designs of each page
 
