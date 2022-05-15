@@ -80,43 +80,43 @@ where it displays your username the "delete account" button. To delete an accoun
 
 **NODE AND EXPRESS:**
 
--Run npm install and npm will install all the dependencies listed
+1. Run npm install and npm will install all the dependencies listed
 
--Download Node.js via their website: https://nodejs.dev/
+2. Download Node.js via their website: https://nodejs.dev/
 
--In visual studio code open terminal and enter the command: npm init
+3. In visual studio code open terminal and enter the command: npm init
 
--Next, install express in the terminal using npm install express.
+4. Next, install express in the terminal using npm install express.
 
--Then in the terminal run npm install nodemon --save-dev
+5. Then in the terminal run npm install nodemon --save-dev
 
 **mySQL:**
 
 **Windows:**
 
--Use the MySQL Community installer for Windows: https:// dev.mysql.com/downloads/installer/
+1. Use the MySQL Community installer for Windows: https:// dev.mysql.com/downloads/installer/
 
--Follow the directions and pick the default options. You will have to pick a password and username. Be sure to remember them.
+2. Follow the directions and pick the default options. You will have to pick a password and username. Be sure to remember them.
 
--In your windows search bar, search for the MySQL Command Line Client and open it. Enter your password.
+3. In your windows search bar, search for the MySQL Command Line Client and open it. Enter your password.
 
 **Mac:**
 
--Go to the following link and download the version for your operating system: https://dev.mysql.com/downloads/mysql/
+1. Go to the following link and download the version for your operating system: https://dev.mysql.com/downloads/mysql/
 
--Follow the steps to download. You may already have an oracle account from when you downloaded Java.
+2. Follow the steps to download. You may already have an oracle account from when you downloaded Java.
 
--Open your terminal and create a bash_profile if you don’t already have one: touch ~/.bash_profile;
+3. Open your terminal and create a bash_profile if you don’t already have one: touch ~/.bash_profile;
 
--Next, open your bash_profile using: open ~/.bash_profile
+4. Next, open your bash_profile using: open ~/.bash_profile
 
--Add the following to it: export PATH=${PATH}:/usr/local/mysql/bin/
+5. Add the following to it: export PATH=${PATH}:/usr/local/mysql/bin/
 
--Close it then run: Mysql -u root -p and enter the password you received when you initially installed. You will have to run this every time you want to use MySQL.
+6. Close it then run: Mysql -u root -p and enter the password you received when you initially installed. You will have to run this every time you want to use MySQL.
 
--Create a new password for the root user by running: ALTER USER 'root'@'localhost' IDENTIFIED BY ‘yournewpassword'
+7. Create a new password for the root user by running: ALTER USER 'root'@'localhost' IDENTIFIED BY ‘yournewpassword'
 
--If you run into an error, take your setup out of Strict Mode: SET @@global.sql_mode= '';
+8. If you run into an error, take your setup out of Strict Mode: SET @@global.sql_mode= '';
 
 <pre>
 
@@ -124,10 +124,53 @@ where it displays your username the "delete account" button. To delete an accoun
 
 **RUN PROJECT:**
 
--Start your server, open up your terminal and enter the command npm run dev --Must have mySQL Data base look below to see how that work--.
+1. Start your server, open up your terminal and enter the command npm run dev --Must have mySQL Data base look below to see how that work--.
+
+2. Go to a browser and type in localhost:3000 then enter.
 
 <pre>
 
 </pre>
 
 **WEBSITE IMAGES:**
+
+Login page:
+
+![leaflogin](https://user-images.githubusercontent.com/77566307/168485196-990e41a9-2334-49f4-9e3f-c16482249863.png)
+
+Register Page:
+
+![leafreg](https://user-images.githubusercontent.com/77566307/168485197-5b19307f-420e-44c8-9590-f0e4a6d3d872.png)
+
+Home Page:
+
+![leafhome](https://user-images.githubusercontent.com/77566307/168485204-68cb139c-b954-47bb-9ff0-ae63f69eb3d0.png)
+
+Enter Note on home page:
+
+![leafhometest](https://user-images.githubusercontent.com/77566307/168485214-cf50a675-25fd-472e-805d-037a7e2aac53.png)
+
+Note entered and result home page:
+
+![leafhomeresult](https://user-images.githubusercontent.com/77566307/168485218-04ce1af2-fbb9-49cc-af65-9f4a88e4a354.png)
+
+Note delete option home page:
+
+![leafdelete](https://user-images.githubusercontent.com/77566307/168485224-f660f5e4-24e4-4a40-8275-7a7aa3e80568.png)
+
+Note deleted and result home page:
+
+![leafhome](https://user-images.githubusercontent.com/77566307/168485232-a8eccb87-2cb8-4320-8062-997fe3415e8d.png)
+
+Note edit option home page:
+
+![editres](https://user-images.githubusercontent.com/77566307/168485242-d70bdab1-1831-4362-85d9-02bdd6089720.png)
+
+Note edit entered result home page:
+
+![editfinish](https://user-images.githubusercontent.com/77566307/168485244-0c7d06a0-3fe3-404d-a949-a2f6dd28120f.png)
+
+profile page:
+
+![profile](https://user-images.githubusercontent.com/77566307/168485247-c39e4e13-c5f2-4cec-b0ff-119d9b992833.png)
+
