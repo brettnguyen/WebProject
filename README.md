@@ -1,15 +1,14 @@
 ﻿
+**<h1>Notes app:</h1>**
 
-**<h1>Notes app video demonstration of it working:</h1>**
-https://user-images.githubusercontent.com/77566307/168509539-33690979-7f7c-4a82-95bd-e176d03efa9c.mp4
+A Notes app. That in the future will allow you to visit other users pages to view there notes too. As well as add upvote and downvote options to notes on either your page or other users pages. The function to add notes to other users pages is something to be implemented in the future as well.
 
 <pre>
 
 </pre>
 
-**<h1>Notes app:</h1>**
-
-A Notes app. That in the future will allow you to visit other users pages to view there notes too. As well as add upvote and downvote options to notes on either your page or other users pages. The function to add notes to other users pages is something to be implemented in the future as well.
+**<h1>Notes app video demonstration of it working:</h1>**
+https://user-images.githubusercontent.com/77566307/168509539-33690979-7f7c-4a82-95bd-e176d03efa9c.mp4
 
 <pre>
 
