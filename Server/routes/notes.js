@@ -52,6 +52,16 @@ router
   }
 })
 
+.delete('/deleteAllNotes', async (req, res) => {
+  try {
+    await NoteCon.deleteNote(req.body.username);
+    res.send({success: "bye note"});
+  } catch(error) {
+    res.status(401).send({message: error.message});
+  }
+})
+
+
 
 
 module.exports = router;
