@@ -7,6 +7,13 @@ A Notes app. That in the future will allow you to visit other users pages to vie
 
 </pre>
 
+**<h1>Notes app video demonstration of it working:</h1>**
+https://user-images.githubusercontent.com/77566307/168509539-33690979-7f7c-4a82-95bd-e176d03efa9c.mp4
+
+<pre>
+
+</pre>
+
 **<h2>FUNCTIONS:</h2>**
 
 -A user can create an account under the register page after creating a username and password.
