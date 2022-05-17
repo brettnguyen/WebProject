@@ -5,7 +5,7 @@ async function createNotes() {
     note VARCHAR(255),
     username VARCHAR(255),
     CONSTRAINT notes_pk PRIMARY KEY(notes_id),
-    CONSTRAINT user_fk FOREIGN KEY(username) REFERENCES users(username)
+    CONSTRAINT user_fk FOREIGN KEY(username) REFERENCES users(username) ON DELETE CASCADE
     )`;
   await con.query(sql);
 }

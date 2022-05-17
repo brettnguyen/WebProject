@@ -1,5 +1,5 @@
 import 
-{ getCurrentUser, setCurrentUser, removeCurrentUser, logout, fetchData } 
+{ getCurrentUser, setCurrentUser, removeCurrentUser, logout, fetchData, getCurrentNote } 
 from './main.js'
 
 let user = getCurrentUser();
@@ -19,7 +19,9 @@ document.getElementById("delete").addEventListener('click', deleteAccount);
 
 function deleteAccount(e) {
   e.preventDefault();
+
   const uname = getCurrentUser().username;
+
   if(confirm('Are you sure you want to delete your account???')) {
     fetchData('/users/deleteUser', {username: uname}, "DELETE")
     .then((data) => {
@@ -27,8 +29,8 @@ function deleteAccount(e) {
       if(!data.message) {
       
         console.log(data.success)
-        logout();
-        window.location.href = "Register.html"
+      logout();
+       window.location.href = "Register.html"
       }
     })
     .catch((error) => {
