@@ -10,6 +10,8 @@ if(getCurrentUser()) {
   `;
 } else {
 
+
+
 }
 export async function fetchData(route = '', data = {}, methodType) {
   const response = await fetch(`${route}`, {
