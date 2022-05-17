@@ -76,12 +76,5 @@ async function createNote(noteinfo) {
   }
 
 
-  async function deleteAllNotes(username) {
-    const sql = `DELETE FROM notes 
-      WHERE username = ${username}
-    `;
-    await con.query(sql);
-   
-  }
 
-module.exports = { getNotes, getAllNotes, getNote, createNotes, createNote, noteExists, editNote, deleteNote, deleteAllNotes};
+module.exports = { getNotes, getAllNotes, getNote, createNotes, createNote, noteExists, editNote, deleteNote};
