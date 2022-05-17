@@ -5,7 +5,7 @@ async function createNotes() {
     note VARCHAR(255),
     username VARCHAR(255),
     CONSTRAINT notes_pk PRIMARY KEY(notes_id),
-    CONSTRAINT user_fk FOREIGN KEY(username) REFERENCES users(username)
+    CONSTRAINT user_fk FOREIGN KEY(username) REFERENCES users(username) ON DELETE CASCADE
     )`;
   await con.query(sql);
 }
@@ -75,4 +75,13 @@ async function createNote(noteinfo) {
    
   }
 
-module.exports = { getNotes, getAllNotes, getNote, createNotes, createNote, noteExists, editNote, deleteNote};
+
+  async function deleteAllNotes(username) {
+    const sql = `DELETE FROM notes 
+      WHERE username = ${username}
+    `;
+    await con.query(sql);
+   
+  }
+
+module.exports = { getNotes, getAllNotes, getNote, createNotes, createNote, noteExists, editNote, deleteNote, deleteAllNotes};
